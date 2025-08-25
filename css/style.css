@@ -2,9 +2,94 @@ body {
     background-color: whitesmoke;
     padding: 0px;
     margin: 0px;
+    font-family: 'Gill Sans';
 }
 header {
     background-color: orange;
     padding: 10px;
     padding-left: 50px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans';
+}
+header span {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 100px;
+    
+}
+header a {
+    font-size: large;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 25px;
+}
+span a:hover {
+    transform: scale(1.15);
+    transition: transform 0.2s;
+}
+.imgbox {
+    position: relative;
+    flex: 1 1 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.imgbox img {
+    width: 100%;
+    height: 500px;
+    display: block;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.imgtext {
+    position: absolute;
+    bottom: 20%;      
+    align-items: center;
+    background: white;
+    color: #222;
+    padding: 8px 3px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: right;
+    pointer-events: none;
+    overflow: hidden;
+    
+}
+.content {
+    font-family:  'Gill Sans';
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+.content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.content p {
+    font-size: 25px;
+    line-height: 1.5;
+}   
+.img {
+    background-color: tomato;
+    display: flex;
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+.img img {
+    height: 100%;
+    width: 30%;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
 }
