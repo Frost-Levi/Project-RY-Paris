@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: white;
     padding: 0px;
     margin: 0px;
     font-family: 'Gill Sans';
@@ -65,31 +65,121 @@ span a:hover {
 }
 .content {
     font-family:  'Gill Sans';
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
     padding: 20px;
+    padding-bottom: 55px;
+    pointer-events: none;
 }
 .content h1 {
     font-size: 45px;
     margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .content p {
     font-size: 25px;
     line-height: 1.5;
-}   
-.img {
-    background-color: tomato;
-    display: flex;
-    width: 90%;
-    height: 300px;
     margin-left: 5%;
     margin-right: 5%;
+}   
+.img {
+    display: flex;
+    width: 90%;
+    height: 360px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    padding-top: 0px;
     justify-content: space-between;
 }
 .img img {
-    height: 100%;
-    width: 30%;
+    height: 80%;
+    width: 100%;
     object-fit: cover;
     display: block;
     overflow: hidden;
+    position: relative;
+;
+    
+}
+.img span {
+    font-size: 25px;
+    font-weight: bold;
+    align-self: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    pointer-events: none;
+    
+}
+.box {
+    width: 33.33%;
+    height: 100%;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+footer{
+    height: 85px;
+    background-color: orange;
+    padding: 10px;
+    padding-left: 50px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans';
+    pointer-events: none;
+}
+footer span {
+    font-size: 16px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 100px;
+    
+}
+footer a {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 10px;
+    pointer-events:auto;
+}
+
+#Boarder img {
+    border: 10px solid gainsboro;
+}
+
+#cheat1 {
+    background-color:white;
+    border: 10px solid white;
+    border-left: 21px solid white;
+    border-right: 21px solid white;
+}
+#cheat2 {
+    background-color:white;
+    border: 10px solid white;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
+}
+#cheat3 {
+    background-color:white;
+    border: 10px solid white;
+    border-left: 37px solid white;
+    border-right: 37px solid white;
+}
+#cheat4 {
+    background-color:white;
+    border: 10px solid white;
+}
+#cooktime {
+    background-color: gainsboro;
+    padding-bottom: 1px;
 }
