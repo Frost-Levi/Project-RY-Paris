@@ -218,7 +218,7 @@ h3 {
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.box{
+.wrap{
     height: 800px;
     width: 97%;
 }
@@ -232,6 +232,6 @@ h3 {
  width: 50%;
 
 }
-h2 {
+.wrap h2 {
     margin-left: 5%;
 }
