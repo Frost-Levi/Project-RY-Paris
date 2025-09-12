@@ -218,3 +218,20 @@ h3 {
     padding-top: 2%;
     padding-bottom: 2%;
 }
+.box{
+    height: 800px;
+    width: 97%;
+}
+.half1{
+    height: 100%;
+ width: 50%;
+ 
+}
+.half2{
+    height: 100%;
+ width: 50%;
+
+}
+h2 {
+    margin-left: 5%;
+}
